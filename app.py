@@ -6,6 +6,7 @@ Created on Sun Nov 29 00:43:41 2020
 """
 import streamlit as st 
 import tensorflow as tf
+from tensorflow.python.keras.models import load_mode
 import joblib,os
 import numpy as np
 import pandas as pd
