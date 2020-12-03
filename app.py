@@ -6,15 +6,15 @@ Created on Sun Nov 29 00:43:41 2020
 """
 import streamlit as st 
 import tensorflow as tf
-from tensorflow.python.keras.models import load_mode
 import joblib,os
 import numpy as np
 import pandas as pd
-from keras.models import load_model
-from keras.preprocessing.text import one_hot
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.text import one_hot
+from tensorflow. keras.preprocessing.sequence import pad_sequences
 from nltk.tokenize import word_tokenize
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
+from nltk.corpus import wordnet as wn
 import re
 from nltk.corpus import stopwords
 
