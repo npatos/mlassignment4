@@ -17,8 +17,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from nltk.corpus import wordnet as wn
 import re
 from nltk.corpus import stopwords
-
-
+nltk.download()
+import nltk
 model=tf.keras.models.load_model( 'model.h5' )
 
 st.title("Email Classifier")
